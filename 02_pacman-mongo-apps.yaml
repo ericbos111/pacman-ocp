@@ -41,7 +41,7 @@ spec:
           claimName: mongodb
       containers:
       - name: mongodb-pacman
-        image: centos/mongodb-36-centos7
+        image: quay.io/ericbos1/mongodb-36-centos7
         env:
         - name: MONGODB_ADMIN_PASSWORD
           value: clyde
