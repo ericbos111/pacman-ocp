@@ -3,7 +3,6 @@ kind: PersistentVolumeClaim
 apiVersion: v1
 metadata:
   name: mongodb
-  namespace: pacman
   annotations:
   labels:
     app: pacman
