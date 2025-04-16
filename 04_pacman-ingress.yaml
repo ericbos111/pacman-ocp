@@ -22,7 +22,6 @@ metadata:
   labels:
     name: pacman
   name: pacman
-  namespace: pacman 
 spec:
   ports:
   - port: 80
